@@ -28,5 +28,3 @@
 3. `git push -u origin master` *第一次推送版本到远程分支*
 4. `git push origin master` *推送*
 5. `git pull origin master` *从远程抓取分支，如果有冲突，要先处理冲突*
-
-![PICTURE](https://d17oy1vhnax1f7.cloudfront.net/items/0A053e0k3221280s450f/Image%202016-08-21%20at%2014.52.03.png?v=7ca79432)
