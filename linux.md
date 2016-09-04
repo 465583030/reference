@@ -107,8 +107,8 @@
 
 1. 删除文件 `rm filename`
 	* `rm <filename>` 会询问你是否删除，需要输入`y`or`n`
-	* `rm -f <filename>`直接强制删除，取消询问模式 **`f`**
-	* `rm -r <dirname>`递归删除目录,会一个一个询问是否删除
+	* `rm -f <filename>`直接强制删除，取消询问模式 **`f`表示force**
+	* `rm -r <dirname>`递归删除目录,会一个一个询问是否删除`r`表示recursive递归
 	* `rm -rf <dirname>`递归强制删除目录及目录内的所有东西,不会询问
 
 	
