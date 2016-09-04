@@ -19,7 +19,7 @@
 1. 分区&格式化&挂载(?????)
 
 
-1. 命令提示符 [命令提示符][8]*可配置*
+1. 命令提示符 ![命令提示符][8]*可配置*
 	* [当前登陆用户@主机名 当前所在目录]# 
 	* `#` 超级用户
 	* `$` 普通用户
@@ -33,28 +33,28 @@
 	* 修改`ONBOOT=”yes”`
 	* 重启网络服务`service network restart`
 	
-	[网卡配置文件][2]
+	![网卡配置文件][2]
 	
 1. **关闭防火墙iptables**
 	1. 使用Setup工具关闭(*Centos系列*)
 	
-	[setup截图][3]
+	![setup截图][3]
 
 1. **关闭SELinux** (增强安全组件)
 	1. 临时：`setenforce 0`
 	2. 永久：`vim /etc/selinux/config` 修改为 `SELINUX=disabled` 最后重启生效
 	
-	[SELinux配置文件][4]
+	![SELinux配置文件][4]
 	
 1. `man [command]`在线查看命令用法
 1. `ls`显示目录下的内容
 	* `ls -l` `ls -a` `ls -al` `ls -lls -lh`
 	
-	[ls-l解释][5]
+	![ls-l解释][5]
 	
-	[文件颜色及类型][6]
+	![文件颜色及类型][6]
 	
-	[常见文件类型][7]
+	![常见文件类型][7]
 	
 1. `cd`切换所在目录 (change directory的缩写)
 	* **一定要配合table键自动补全使用**
@@ -91,9 +91,9 @@
 		* `/var/log/`系统日志位置
 		* `/var/spool/mail/`系统默认邮箱位置
 	
-	[linux目录结构][9]	
+	![linux目录结构][9]	
 	
-	[/usr目录结构][10]
+	![/usr目录结构][10]
 		
 1. 新建目录 `mkdir <目录名称>` (make directories)
 	* `mkdir test`
