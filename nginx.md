@@ -1,7 +1,9 @@
 #nginx 参考
 #### 常用命令
 1. 帮助命令`nginx地址 -h` 
+
 	![nginx -h][1]
+	
 2. 启动
 	* `nginx地址 -c nginx配置文件地址`
 	* 默认情况下为`/usr/local/nginx/sbin/nginx  -c /usr/local/nginx/conf/nginx.conf`
