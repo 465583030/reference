@@ -60,6 +60,7 @@
 
 
 #### **git配置**`git config` 
+1. `git config --list` *查看git的配置*
 1. `git config --global user.name "Your Name"`
 2. `git config --global user.email "email@example.com"`
 3. `git config --global color.ui true`*显示颜色*
