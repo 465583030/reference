@@ -5,7 +5,7 @@
 	![nginx -h][1]
 	
 2. 启动
-	* `nginx地址 -c nginx配置文件地址`
+	* `nginx可执行文件地址 -c nginx配置文件地址`
 	* 默认情况下为`/usr/local/nginx/sbin/nginx  -c /usr/local/nginx/conf/nginx.conf`
 3. 查看进程号：
 	* `ps -ef | grep nginx`
@@ -14,11 +14,16 @@
 	* 快速停止：`kill -TERM $主进程号` or `kill -INT $主进程号`
 	* 强制停止：`pkill -9 nginx`
 5. 重启：**修改配置文件必须重启生效！**
-	* `nginx地址 -t`*验证nginx配置文件语法是否正确*
-	* `nginx地址 -s reload`
+	* `nginx可执行文件地址 -t`*验证nginx配置文件语法是否正确 有默认值*
+	* `/usr/local/nginx/sbin/nginx -t -c /usr/local/nginx/conf/nginx.conf`*验证nginx配置文件语法是否正确*
+	* `nginx可执行文件地址 -s reload`
 	* `kill -HUP $主进程号`
 6. 信号控制：
-	
+
+	* `nginx可执行文件地址 -s stop`
+	* `nginx可执行文件地址 -s quit`
+	* `nginx可执行文件地址 -s reopen`
+	* `nginx可执行文件地址 -s reload`
 	
 	
 
