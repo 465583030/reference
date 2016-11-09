@@ -1,7 +1,12 @@
 ## nginx 全局变量对照
 
-> http://dwz.stamhe.com/index.php?_a=index&_m=show&count=10
+> 请求链接:http://dwz.stamhe.com/index.php?_a=index&_m=show&count=10
+
 > 在openresty中所有这些变量都可以用`ngx.var.xxx`来获取,其中xxx代表下面这些变量
+
+> 在 Nginx 配置中，变量只能存放一种类型的值，因为也只存在一种类型的值，那就是字符串。
+
+> Nginx 配置文件引用变量，需要在变量名前面加一个 $ 符号类似于php
 
 1. `remote_addr` *客户端ip,如：192.168.5.5* 
 
