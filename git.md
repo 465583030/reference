@@ -10,6 +10,7 @@
 1. `git help`    *git帮助命令*
 2. `git config` *git配置命令*
 3. `git init` *初始化一个repository，或者在一个已存在的版本库中重新初始化。*
+4. `git status` *显示状态*
 4. `git add <file1> <file2> ...` *把文件加入到索引区index*
 5. `git add .` *把当前工作区变动的所有文件添加到index*
 6. `git commit -m '提交的信息'` *提交index到版本库*
