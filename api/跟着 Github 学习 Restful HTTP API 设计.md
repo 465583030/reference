@@ -69,7 +69,7 @@ DELETE /repos/:owner/:repo
 
 NOTE：更新和创建操作应该返回最新的资源，来通知用户资源的情况；删除资源一般不会返回内容。
 
-###不符合 CRUD 的情况
+### 不符合 CRUD 的情况
 
 在实际资源操作中，总会有一些不符合 `CRUD`（Create-Read-Update-Delete） 的情况，一般有几种处理方法。
 
@@ -201,6 +201,7 @@ API 最终是给人使用的，不管是公司内部，还是公开的 API 都�
 ## 参考资料
 
 * [Github API v3](https://developer.github.com/v3/)
+* [https://www.instagram.com](https://www.instagram.com)
 * [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 * [REST接口设计规范](http://wangwei.info/about-rest-api/)
 * [Restful API 首次被提出的论文：Architectural Styles and the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
